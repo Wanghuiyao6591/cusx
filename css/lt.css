@@ -1,0 +1,156 @@
+@import url(../css/public.css);
+*{
+	font-size: 12px;
+	color: #666;
+	font-size: "微软雅黑","宋体","Arial";
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+}
+
+.big{
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+}
+/**************************************头部*********************************/
+.top{
+	width: 100%;
+	height: 32px;
+	background: #E6EEE1;
+}
+.top1{
+	width: 1230px;
+	height: 32px;
+	margin: 0 auto;
+}
+.top .top_left{
+	float: left;
+	height: 32px;
+}
+.top .top_left a{
+	display: block;
+	float: left;
+	line-height: 32px;
+	font-size: 14px;
+	margin-right: 20px;
+}
+.top .top_left a:hover{
+	color: #c40000;
+	text-decoration: underline;
+}
+.top .top_right{
+
+	float: right;
+	height: 32px;
+}
+.top .top_right a{
+	display: block;
+	float: left;
+	line-height: 32px;
+	font-size: 14px;
+	margin-left: 20px;
+}
+.top .top_right a:hover{
+	color: #c40000;
+	text-decoration: underline;
+}
+/**************************************badge*********************************/
+.badge{
+	width: 100%;
+	height: 140px;
+}
+.badge1{
+	width: 1230px;
+	height: 140px;
+	margin: 0 auto;
+}
+.badge1 a{
+	display: block;
+	float: left;
+	margin-left: -5px;
+	height: 140px;
+}
+.badge1 img{
+	height: 140px;
+}
+/**************************************banner*********************************/
+.banner{
+	width: 1230px;
+	height: 460px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.banner .yanse{
+	width: 160px;
+	height: 80px;
+	background: #000;
+	z-index: 10;
+	position: absolute;
+	top:200px;
+	left: 0px;
+	text-align:center;
+	line-height: 80px;
+	color: #fff;
+	font-size: 26px;
+	font-family: "微软雅黑"
+}
+/*************************************邮箱*********************************/
+.mail{
+	width: 100%;
+	height: 100%;
+}
+.mail1{
+	width: 1230px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+.mail1 .img{
+	width: 290px;
+	margin-top:10px; 
+	height: 325px;
+	overflow: hidden;
+	float: left;
+	opacity: 0.8;
+}
+.mail1 .img1{
+	width: 290px;
+	margin-top:10px; 
+	height: 325px;
+	overflow: hidden;
+	float: right;
+	opacity: 0.8;
+}
+.mail1 .main{
+	width: 611px;
+	height: 324px;
+	float: left;
+	margin-right: 19px;
+	margin-left: 19px;
+	margin-top:11px; 
+}
+#xinxiang{
+	width: 610px;
+	height: 260px;
+	float: left;
+}
+#tijiao{
+	width: 612px;
+	height: 40px;
+	float: left;
+	margin-top: 20px;
+	background: #E6EEE1;
+	color: #000;
+	text-align: center;
+	line-height: 40px;
+	font-family: "微软雅黑";
+	font-size:16px;
+}
+#tijiao:hover{
+	background: #000;
+	color: #fff;
+}
+

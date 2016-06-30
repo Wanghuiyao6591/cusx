@@ -1,0 +1,151 @@
+@import url(../css/public.css);
+*{
+	font-size: 12px;
+	color: #666;
+	font-size: "微软雅黑","宋体","Arial";
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+}
+
+.big{
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+}
+/**************************************头部*********************************/
+.top{
+	width: 100%;
+	height: 32px;
+	background: #E6EEE1;
+}
+.top1{
+	width: 1230px;
+	height: 32px;
+	margin: 0 auto;
+}
+.top .top_left{
+	float: left;
+	height: 32px;
+}
+.top .top_left a{
+	display: block;
+	float: left;
+	line-height: 32px;
+	font-size: 14px;
+	margin-right: 20px;
+}
+.top .top_left a:hover{
+	color: #c40000;
+	text-decoration: underline;
+}
+.top .top_right{
+
+	float: right;
+	height: 32px;
+}
+.top .top_right a{
+	display: block;
+	float: left;
+	line-height: 32px;
+	font-size: 14px;
+	margin-left: 20px;
+}
+.top .top_right a:hover{
+	color: #c40000;
+	text-decoration: underline;
+}
+/**************************************badge*********************************/
+.badge{
+	width: 100%;
+	height: 140px;
+}
+.badge1{
+	width: 1230px;
+	height: 140px;
+	margin: 0 auto;
+}
+.badge1 a{
+	display: block;
+	float: left;
+	margin-left: -5px;
+	height: 140px;
+}
+.badge1 img{
+	height: 140px;
+}
+/*************************************邮箱*********************************/
+.mail{
+	width: 100%;
+	height: 100%;
+}
+.mail1{
+	width: 1230px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+.mail1 .img{
+	width: 290px;
+	margin-top:10px; 
+	height: 325px;
+	overflow: hidden;
+	float: left;
+	opacity: 0.8;
+}
+.mail1 .img1{
+	width: 290px;
+	margin-top:10px; 
+	height: 325px;
+	overflow: hidden;
+	float: right;
+	opacity: 0.8;
+}
+.mail1 .main{
+	width: 610px;
+	height: 323px;
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 19px;
+	margin-left: 19px;
+	margin-top:11px; 
+}
+.mail1 .main li{
+	width: 300px;
+	height: 40px;
+	margin: 40px auto;
+	font-size: 20px;
+	color: #000;
+	font-family: "微软雅黑";
+	line-height: 60px;
+}
+.mail1 .main .admin{
+	width: 200px;
+	height: 20px;
+}
+.mail1 .main .pass{
+	width: 200px;
+	height: 20px;
+}
+.mail1 .main input{
+	border: none;
+	border-bottom: 1px solid #ccc;
+	background: #f5f5f5;
+}
+.mail1 .main .land{
+	width: 270px;
+	height: 40px;
+	background: #E6EEE1;
+	
+	line-height: 40px;
+	text-align: center;
+	margin-left: 150px;
+	
+	margin-top:40px;
+}
+.mail1 .main .land span{
+	font-family: "微软雅黑";
+	color: #000;
+	font-size: 18px;
+}

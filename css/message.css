@@ -1,0 +1,262 @@
+@import url(../css/public.css);
+*{
+	font-size: 12px;
+	color: #666;
+	font-size: "微软雅黑","宋体","Arial";
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+}
+
+.big{
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+}
+/**************************************头部*********************************/
+.top{
+	width: 100%;
+	height: 32px;
+	background: #E6EEE1;
+}
+.top1{
+	width: 1230px;
+	height: 32px;
+	margin: 0 auto;
+}
+.top .top_left{
+	float: left;
+	height: 32px;
+}
+.top .top_left a{
+	display: block;
+	float: left;
+	line-height: 32px;
+	font-size: 14px;
+	margin-right: 20px;
+}
+.top .top_left a:hover{
+	color: #c40000;
+	text-decoration: underline;
+}
+.top .top_right{
+
+	float: right;
+	height: 32px;
+}
+.top .top_right a{
+	display: block;
+	float: left;
+	line-height: 32px;
+	font-size: 14px;
+	margin-left: 20px;
+}
+.top .top_right a:hover{
+	color: #c40000;
+	text-decoration: underline;
+}
+/**************************************badge*********************************/
+.badge{
+	width: 100%;
+	height: 140px;
+}
+.badge1{
+	width: 1230px;
+	height: 140px;
+	margin: 0 auto;
+}
+.badge1 a{
+	display: block;
+	float: left;
+	margin-left: -5px;
+	height: 140px;
+}
+.badge1 img{
+	height: 140px;
+}
+/**************************************管理*********************************/
+.message{
+	width: 100%;
+}
+.message1{
+	width: 1222px;
+	height: 400px;
+	border: 3px solid #fff;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.message1 .left{
+	width: 300px;
+	height: 400px;
+	border-right:3px solid #fff; 
+	float: left;
+}
+#liuyan{
+	width: 300px;
+	height: 131px;
+	background: #333333;
+	color: #fff;
+	font-size: 30px;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 130px;
+	border-bottom:3px solid #fff; 
+}
+#xinxiang{
+	width: 300px;
+	height: 131px;
+	background: #333333;
+	color: #fff;
+	font-size: 30px;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 130px;
+	border-bottom:3px solid #fff; 
+	/*position: absolute;
+	top:198px;
+	left: 0;*/
+}
+#zhuce{
+	width: 300px;
+	height: 153px;
+	background: #333333;
+	color: #fff;
+	font-size: 30px;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 132px;
+}
+.message1 .right{
+	width: 919px;
+	height: 400px;
+	float: left;
+	overflow: hidden;
+}
+.message1 .right img{
+	width: 919px;
+}
+.main{
+	width: 919px;
+	height: 400px;
+	position: absolute;
+	top:0;
+	left: 303px;
+	z-index: 10;
+	background: #333;
+}
+#main3{
+	display: none;
+}
+#main4{
+	display: none;
+}
+#main5{
+	display: none;
+}
+.main .title{
+	width: 919px;
+	height: 80px;
+	background: #333;
+	border-bottom: 1px solid #fff;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	text-align:center;
+	line-height: 80px;
+	color: #fff;
+}
+.main .list{
+	width: 919px;
+	height: 40px;
+	border-bottom: 1px solid #fff;
+}
+.main1 .list li{
+	float: left;
+	width: 228px;
+	border-right:1px solid #fff; 
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	font-family: "微软雅黑"
+}
+.main1 .list .li{
+	border: none;
+}
+.main3 .list li{
+	float: left;
+	width: 152px;
+	border-right:1px solid #fff; 
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	font-family: "微软雅黑"
+}
+.main3 .list1 li{
+	float: left;
+	width: 152px;
+	border-right:1px solid #fff; 
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	font-family: "微软雅黑";
+	border-bottom:1px solid #fff;
+}
+.main3 .list li input{
+	width: 152px;
+	float: left;
+	height: 40px;
+	border: none;
+	display: block;
+	background: #333;
+	color: #fff;
+	text-align: center;
+}
+.main3 .list .zhuce{
+	width: 152px;
+	border: none;
+}
+.main3 .list1 .zhuce1{
+	border: none;
+	width: 154px;
+}
+.main3 .list1 .zhuce1:hover{
+	background: #fff;
+	color: #000;
+}
+.main3 .list .li{
+	border: none;
+}
+.main .list .w{
+	width: 282px;
+}
+.main .list .h{
+	width: 220px;
+}
+.main2 .list li{
+	float: left;
+	width: 82px;
+	border-right:1px solid #fff; 
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	font-family: "微软雅黑"
+}
+.main2 .list .li{
+	border: none;
+}
+#addLiu{
+	/*width: 919px;*/
+}
+#addXin{
+	width: 919px;
+}

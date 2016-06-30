@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>山西传媒学院(原广播电影电视管理干部学院)</title>
+	<link rel="stylesheet" href="../css/index.css">
+	<script src="../js/function.js"></script>
+	<script src="../js/animate.js"></script>
+	<script>
+		$(function(){
+			var inner=$(".inner1");
+			var main=$(".main");
+			var move=function(i){
+				inner[i].onmouseover=function(){
+					main[i].style.display="block";
+				}
+				main[i].onmouseover=function(){
+					main[i].style.display="block";
+				}
+				main[i].onmouseout=function(){
+					main[i].style.display="none";
+				}
+				inner[i].onmouseout=function(){
+					main[i].style.display="none";
+				}
+			}
+			for(var i=0;i<inner.length;i++){
+				move(i);
+			}
+
+
+			var kuang=$(".kuang");
+			var pos=$(".positive");
+			var star=function(i){
+				kuang[i].onmouseover=function(){
+					pos[i].style.display="block";
+				}
+				kuang[i].onmouseout=function(){
+					pos[i].style.display="none";
+				}
+			}
+			for(var i=0;i<kuang.length;i++){
+				star(i);
+			}
+		})
+	</script>
+</head>
+<body>
+<div class="big">
+	<!-- *************************************头部 ****************************************  -->
+		<div class="top">
+			<div class="top1">
+				<div class="top_left">
+					<a href="zrcm.html">走入传媒</a>
+					<a href="xydt.html">学院动态</a>
+					<a href="xbdt.html">系部动态</a>
+					<a href="tzgg.html">通知公告</a>
+					<a href="http://www.arft.net/zhaoshengjiuye/" target="_blank">招生网</a>
+					<a href="http://221.204.177.43:54/" target="_blank">就业信息网</a>
+					<a href="http://221.204.177.43/phpcms/" target="_blank">薪火传媒</a>
+				</div>
+				<div class="top_right">
+					<a href="../stuHtml/stuDl.html" target="blank">学生登录</a>
+					<a href="../messager/messager.html" target="blank">管理登录</a>
+					<a href="lt.html" target="_blank">我要留言</a>
+					<a href="#">ENGLISH</a>
+				</div>
+			</div>
+		</div>
+	<!-- *************************************校徽 ****************************************  -->
+		<div class="badge">
+			<div class="badge1">
+				<a href="#"><img src="../img/logo1.png" alt=""></a>
+			</div>
+		</div>
+	<!-- *************************************选择 ****************************************  -->
+		<div class="tab">
+			<div class="tab1">
+					<div class="li">
+						<a href="#" class="inner1">学院概况</a>
+						<div class="main main_1">
+							<ul>
+								<li><a href="http://www.arft.net/xueyuanzongshu/" target="blank">学院综述</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/xueyuanzhangcheng/" target="blank">学院章程</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/lingdaochengyuan/" target="blank">领导成员</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/yuanxishezhi/" target="blank">院系设置</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/xueyuanrongyu/" target="blank">学院荣誉</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/lingdaoguanhuai/" target="blank">领导关怀</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/banshizhinan2/" target="blank">办事指南</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="li">
+						<a href="#" class="inner1">党政机构</a>
+						<div class="main main_2">
+							<ul>
+								<li><a href="http://www.arft.net/xueyuanbangongshi/" target="blank">学院办公室</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/zuzhirenshichu/" target="blank">组织人事处</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/dwxcb/" target="blank">党委宣传部</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/jiaowuchu/" target="blank">教务处</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/zhaoshengchu/" target="blank">招生处</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/xueshengchu/" target="blank">学生处</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/jihuacaiwuchu/" target="blank">计划财务处</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/zongwuchu/" target="blank">总务处</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/sbzcglc/" target="blank">资产管理处</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/keyanchu/" target="blank">科研处</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/gonghui/" target="blank">工会</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="li">
+						<a href="#" class="inner1">教学机构</a>
+						<div class="main main_3" >
+							<ul>
+								<li><a href="http://www.arft.net/zhizuoxi/" target="blank">制作系</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/donghuaxi/" target="blank">动画系</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/yishushejixi/" target="blank">艺术设计系</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/bianboxi/" target="blank">编导系</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/boyinzhuchixi/" target="blank">播音主持系</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/chuanmeiguanlixi/" target="blank">传媒管理系</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/luyinxi/" target="blank">录音系</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/sizhengbu/" target="blank">思政部</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/jichubu/" target="blank">基础部</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/gongtibu/" target="blank">公共体育部</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="li">
+						<a href="#" class="inner1">学科专业</a>
+						<div class="main main_4" >
+							<ul>
+								<li><a href="http://www.arft.net/zhuanyejianshe/" target="blank">专业建设</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/kechengjianshe/" target="blank">课程建设</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/xuekezhuanye/" target="blank">基地建设</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/xkzygzzd/" target="blank">规章制度</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="li">
+						<a href="#" class="inner1">师资队伍</a>
+						<div class="main main_5" >
+							<ul>
+								<li><a href="http://www.arft.net/zhuanyedaitouren/" target="blank">专业带头人</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/guganjiaoshi/" target="blank">骨干教师</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/kezuojiaoshou/" target="blank">客座教授</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="li">
+						<a href="#" class="inner1">科研创作</a>
+						<div class="main main_6" >
+							<ul>
+								<li><a href="http://www.arft.net/kycg/" target="blank">科研成果</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/chuangzuochengguo/" target="blank">创作成果</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/xueshuchuangzuojiaoliu/" target="blank">学术创作交流</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/guangboyingshiyanjiu/" target="blank">广播影视研究</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/dianshiyishujie/" target="blank">电视艺术节</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/guangboyingshiyanjiu/" target="blank">学报</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="li">
+						<a href="#" class="inner1">招生就业</a>
+						<div class="main main_7" >
+							<ul>
+								<li><a href="http://www.arft.net/zhaoshengjiuye/" target="blank">招生信息</a></li>
+								<span>|</span>
+								<li><a href="http://202.97.152.241:54/" target="blank">就业信息网</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/jx/" target="blank">继续教育网</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="li">
+						<a href="#" class="inner1">校园文化</a>
+						<div class="main main_8" >
+							<ul>
+								<li><a href="http://www.arft.net/xlzx/" target="blank">心理咨询</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/xueyuanshetuan/" target="blank">学院社团</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/xydst/" target="blank">学院电视台</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/xueyuandiantai/" target="blank">学院电台</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/xueyuanbaokan/" target="blank">学院报刊</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/xiaoyuanwenhua/" target="blank">师生交流</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="li">
+						<a href="#" class="inner1">信息公开</a>
+						<div class="main main_9" >
+							<ul>
+								<li><a href="http://www.arft.net/xiaowugongkai/" target="blank">校务公开</a></li>
+								<span>|</span>
+								<li><a href="http://www.arft.net/dangwugongkai2/" target="blank">党务公开</a></li>
+							</ul>
+						</div>
+					</div>
+			</div>
+		</div>
+	<!-- *************************************定位 ****************************************  -->
+	<!--图书馆-->
+	<div class="kuang k1">
+		<div class="positive p1">
+			<a href="">
+			<img src="../img/39458PICmUq_1024.png" alt="">
+				图书馆
+			</a>
+		</div>
+	</div>
+	<!--食堂-->
+	<div class="kuang k2">
+		<div class="positive p2">
+			<a href="">
+			<img src="../img/39458PICmUq_1024.png" alt="">
+			<span>餐厅</span>
+			</a>
+		</div>
+	</div>
+	<!--行政楼-->
+	<div class="kuang k3">
+		<div class="positive p3">
+			<a href="./html/xydt.html">
+			<img src="../img/39458PICmUq_1024.png" alt="">	
+			<span>行政楼</span>
+			</a>
+		</div>
+	</div>
+	<!--基础楼-->
+	<div class="kuang k4">
+		<div class="positive p4">
+			<a href="./html/xydt.html">
+				<img src="../img/39458PICmUq_1024.png" alt="">
+				<span>基础楼</span>
+			</a>
+		</div>
+	</div>
+	<!--演艺中心-->
+	<div class="kuang k5">
+		<div class="positive p5">
+			<a href="./html/xydt.html">
+			<img src="../img/39458PICmUq_1024.png" alt="">
+			<span>演艺中心</span>
+			</a>
+		</div>
+	</div>
+	<!--体育馆-->
+	<div class="kuang k6">
+		<div class="positive p6">
+			<a href="./html/xydt.html">
+			<img src="../img/39458PICmUq_1024.png" alt="">
+			<span>体育馆</span>
+			</a>
+		</div>
+	</div>
+	<!--宿舍楼-->
+	<div class="kuang k7">
+		<div class="positive p7">
+			<a href="./html/xydt.html">
+			<img src="../img/39458PICmUq_1024.png" alt="">
+			<span>宿舍楼</span>
+			</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>
